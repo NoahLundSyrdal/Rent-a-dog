@@ -1,4 +1,39 @@
 body{
     background-color: lightgray;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
+div {
+    background-color: white;
+    border: solid; 
+    border-color: black;
+    margin-bottom: 5px;
+}
+
+.picture{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: left;
+}
+
+.ptext{
+    text-align: center;
+}
+
+div p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}

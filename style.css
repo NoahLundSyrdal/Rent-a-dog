@@ -47,3 +47,11 @@ div table {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+div table tr th {
+    border: 1px solid black;
+}
+
+div table tr td {
+    border: 1px solid black;
+}

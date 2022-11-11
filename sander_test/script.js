@@ -1,5 +1,5 @@
 let body = document.getElementsByTagName("body");
-document.body.innerHTML = `
+document.body.innerHTML = document.body.innerHTML + `
 <div id="top"></div>
     <div id="navBar">
       <ul id="navBarList">

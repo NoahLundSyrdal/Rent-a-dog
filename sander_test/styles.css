@@ -1,91 +1,91 @@
-*{
-    /*min-width: 900px;*/
+* {
+  /*min-width: 900px;*/
 }
 
-body{
-    margin: 0;
-    background-color: lightgray;
+body {
+  margin: 0;
+  background-color: lightgray;
 }
 
-#top{
-    width: 100%;
-    height: 200px;
-    background-color: lightgreen;
-    margin: 0;
-    padding: 0;
+#top {
+  width: 100%;
+  height: 200px;
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
 }
 
-#navBar{
-    width: 100%;
-    height: 50px;
-    background-color: darkgreen;
-    
-}
-#navBarList{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+#logo {
+  display: grid;
+  place-items: center;
 }
 
-
-
-#navbar ul{
-    display: inline-block
-    
+#navBar {
+  width: 100%;
+  height: 50px;
+  background-color: darkgreen;
+}
+#navBarList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-li{
-    display: inline;
-    font-size: 40px;
-    margin: 20px
+#navbar ul {
+  display: inline-block;
 }
 
-li a:hover{
-    background-color: greenyellow;
+li {
+  display: inline;
+  font-size: 40px;
+  margin: 20px;
 }
 
-a{
-    color: black;
-    text-decoration: none
+li a:hover {
+  background-color: greenyellow;
 }
 
-.upperText{
-    position: relative;
-    text-align: center;
-    width: 100%;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.upperText h1{
-    vertical-align: middle;
+.upperText {
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
-.dogInfo{
-    overflow: hidden;
-    background-color: rgb(43, 151, 43);
-    margin: 10px 20%;
-    border: 4px solid black;
+.upperText h1 {
+  vertical-align: middle;
 }
 
-.dogImg{
-    width: 400px;
-    float: left;
-    margin: 5px;
-    border: 4px solid black;
+.dogInfo {
+  overflow: hidden;
+  background-color: rgb(43, 151, 43);
+  margin: 10px 20%;
+  border: 4px solid black;
 }
 
-.dogText{
-    color: white;
-    margin: 5px;
+.dogImg {
+  width: 400px;
+  float: left;
+  margin: 5px;
+  border: 4px solid black;
 }
 
-#dogVideo{
-    margin: 5px 20%;
-    text-align: center;
+.dogText {
+  color: white;
+  margin: 5px;
 }
 
-#video{
-    width: 700px;
-    border: 4px solid black;
-    
+#dogVideo {
+  margin: 5px 20%;
+  text-align: center;
+}
+
+#video {
+  width: 700px;
+  border: 4px solid black;
 }

@@ -13,6 +13,8 @@ body {
   background-color: lightgreen;
   margin: 0;
   padding: 0;
+  display: grid;
+  place-items: center;
 }
 
 #logo {

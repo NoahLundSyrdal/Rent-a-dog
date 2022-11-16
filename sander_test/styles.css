@@ -34,12 +34,23 @@ body {
   text-align: center;
 }
 
-#navbar ul {
-  display: inline-block;
+@media screen and (min-width: 790px) {
+  #navbar ul {
+    display: inline-block;
+  }
+  li {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #content {
+    position: relative;
+    margin-top: 350px;
+  }
 }
 
 li {
-  display: inline;
   font-size: 40px;
   margin: 20px;
 }

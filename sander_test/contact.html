@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="/img/paw.png">
+    <link rel="icon" href="../img/paw.png">
+
   </head>
   <body>
     <div id="nav"></div>
@@ -20,10 +21,15 @@
       <textarea id="contacttext">
       </textarea>
       <br>
-      <button id="contactsend" onclick="confirm('Thank you for contacting!')">Send</button>
+      <button id="contactsend" onclick="sendCont()">Send</button>
     </div>
 
     <script src="navbartest.js"></script>
-    
+    <script>
+      function sendCont() {
+        confirm('Thank you for contacting!')
+        document.getElementById("contacttext").value = ""
+      }
+    </script>
   </body>
 </html>

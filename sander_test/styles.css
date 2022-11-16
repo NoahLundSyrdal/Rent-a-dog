@@ -1,5 +1,6 @@
 * {
   /*min-width: 900px;*/
+  font-family: arial;
 }
 
 body {
@@ -143,6 +144,10 @@ a {
   border-radius: 5px;
 }
 
+#contactsend:hover {
+  background-color: #18A558;
+}
+
 form > input,
 form > label {
   margin: 5px;
@@ -157,7 +162,7 @@ form > label {
 
 #orderSendBtn {
   font-size: 20px;
-  background-color: darkgreen;
+  background-color: #106531;
   color: white;
   padding: 5px 20px;
 }
@@ -172,15 +177,31 @@ button:hover {
 }
 
 #ourdogs {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #ourdogsbox {
   border-style: solid;
   border-color: black;
   border-width: 3px;
+  border-radius: 10px;
   background-color: #A3EBB1;
   margin: auto;
-  width: 80%;
+  width: 70%;
+}
+
+#about {
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 3px;
+  margin-top: 40px;
+  background-color: #A3EBB1;
+  
+
 }
 

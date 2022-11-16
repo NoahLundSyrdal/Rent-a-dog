@@ -1,5 +1,6 @@
 * {
   /*min-width: 900px;*/
+  font-family: arial;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: #106531;
 }
 
 @media screen and (min-width: 790px) {
@@ -44,7 +46,7 @@ body {
 }
 
 @media screen and (max-width: 790px) {
-  #content {
+  .content {
     position: relative;
     margin-top: 350px;
   }
@@ -142,6 +144,10 @@ a {
   border-radius: 5px;
 }
 
+#contactsend:hover {
+  background-color: #18A558;
+}
+
 form > input,
 form > label {
   margin: 5px;
@@ -156,7 +162,7 @@ form > label {
 
 #orderSendBtn {
   font-size: 20px;
-  background-color: darkgreen;
+  background-color: #106531;
   color: white;
   padding: 5px 20px;
 }
@@ -171,16 +177,17 @@ button:hover {
 }
 
 #ourdogs {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #ourdogsbox {
   border-style: solid;
   border-color: black;
   border-width: 3px;
+  border-radius: 10px;
   background-color: #A3EBB1;
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 
 #about {

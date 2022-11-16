@@ -1,5 +1,6 @@
 * {
   /*min-width: 900px;*/
+  font-family: arial;
 }
 
 body {
@@ -131,6 +132,10 @@ a {
   border-radius: 5px;
 }
 
+#contactsend:hover {
+  background-color: #18A558;
+}
+
 form > input,
 form > label {
   margin: 5px;
@@ -145,7 +150,7 @@ form > label {
 
 #orderSendBtn {
   font-size: 20px;
-  background-color: darkgreen;
+  background-color: #106531;
   color: white;
   padding: 5px 20px;
 }

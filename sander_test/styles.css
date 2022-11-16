@@ -183,3 +183,18 @@ button:hover {
   width: 80%;
 }
 
+#about {
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 3px;
+  margin-top: 40px;
+  background-color: #A3EBB1;
+  
+
+}
+

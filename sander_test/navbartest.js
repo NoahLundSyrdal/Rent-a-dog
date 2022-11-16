@@ -6,10 +6,10 @@ navDiv.innerHTML =
    `<div id="top">
         <img
             id="logo"
-            src="../img/Rentadog_logo2.png"
+            src="../img/Rentadog_logo.png"
             alt="rentadog_logo"
-            width="50%"
-            height="150px" />
+            width="90%"
+            height="200px" />
     </div><div id="navBar">
             <ul id="navBarList">
                 <li><a href="home_test.html">Home</a></li>

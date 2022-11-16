@@ -177,15 +177,16 @@ button:hover {
 }
 
 #ourdogs {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #ourdogsbox {
   border-style: solid;
   border-color: black;
   border-width: 3px;
+  border-radius: 10px;
   background-color: #A3EBB1;
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 

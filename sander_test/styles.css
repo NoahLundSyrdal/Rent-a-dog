@@ -32,6 +32,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: #106531;
 }
 
 @media screen and (min-width: 790px) {
@@ -44,7 +45,7 @@ body {
 }
 
 @media screen and (max-width: 790px) {
-  #content {
+  .content {
     position: relative;
     margin-top: 350px;
   }

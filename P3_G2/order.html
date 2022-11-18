@@ -11,9 +11,9 @@
     <div id="nav"></div>
     <br />
     <div class="content">
-      <h1 class="upperText">Order</h1>
-      <div class="dogInfo">
+      <div id="contactbox">
         <form id="orderForm">
+          <h1 id="contactus">Order</h1>
           <label for="dogId">Dog-ID:</label>
           <input type="text" name="dogId" id="dogId" /><br />
           <br />
@@ -26,17 +26,16 @@
           <input type="text" name="phoneNumber" id="phoneNumber" /><br />
           <label for="email">Email:</label>
           <input type="email" name="email" id="email" />
+          <br><br>
+            <button
+              type="submit"
+              form="orderForm"
+              id="sendbtn"
+              onclick="confirm('Do you want to send your order?')"
+            >
+              Send
+            </button>
         </form>
-      </div>
-      <div id="orderBtnDiv">
-        <button
-          type="submit"
-          form="orderForm"
-          id="orderSendBtn"
-          onclick="confirm('Do you want to send your order?')"
-        >
-          Send
-        </button>
       </div>
     </div>
 

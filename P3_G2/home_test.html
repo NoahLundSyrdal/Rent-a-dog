@@ -56,25 +56,6 @@
         </video>
       </div>
     </div>
-    <script>
-      let sekunder = 10;
-
-      const countdown =setInterval(()=> {
-          sekunder--;
-          console.log(sekunder)
-          if (sekunder == 10) {
-            document.getElementById("homedog").src="../img/dog_1.jpg"
-          } else if (sekunder == 8) {
-            document.getElementById("homedog").src="../img/dog_3.jpg"
-          } else if (sekunder == 6) {
-            document.getElementById("homedog").src="../img/dog_4.jpg"
-          }else if (sekunder == 4) {
-            document.getElementById("homedog").src="../img/dog_8.jpg"
-          } else if (sekunder == 2) {
-            document.getElementById("homedog").src="../img/dog_5.jpg"
-            sekunder = 10
-          }
-        },1000)
-    </script>
+    <script src="slideshow.js"></script>
   </body>
 </html>

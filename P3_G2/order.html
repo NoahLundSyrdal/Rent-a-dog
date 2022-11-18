@@ -11,34 +11,34 @@
     <div id="nav"></div>
     <br />
     <div class="content">
-    <h1 class="upperText">Order</h1>
-    <div class="dogInfo">
-      <form id="orderForm">
-        <label for="dogId">Dog-ID:</label>
-        <input type="text" name="dogId" id="dogId" /><br />
-        <br />
-        <label for="startDate">Pick up date:</label>
-        <input type="date" name="startDate" id="startDate" /><br />
-        <label for="stopDate">Delivery date:</label>
-        <input type="date" name="stopDate" id="stopDate" /><br />
-        <br />
-        <label for="phoneNumber">Phone number:</label>
-        <input type="text" name="phoneNumber" id="phoneNumber" /><br />
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email"/>
-      </form>
+      <h1 class="upperText">Order</h1>
+      <div class="dogInfo">
+        <form id="orderForm">
+          <label for="dogId">Dog-ID:</label>
+          <input type="text" name="dogId" id="dogId" /><br />
+          <br />
+          <label for="startDate">Pick up date:</label>
+          <input type="date" name="startDate" id="startDate" /><br />
+          <label for="stopDate">Delivery date:</label>
+          <input type="date" name="stopDate" id="stopDate" /><br />
+          <br />
+          <label for="phoneNumber">Phone number:</label>
+          <input type="text" name="phoneNumber" id="phoneNumber" /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </form>
+      </div>
+      <div id="orderBtnDiv">
+        <button
+          type="submit"
+          form="orderForm"
+          id="orderSendBtn"
+          onclick="confirm('Do you want to send your order?')"
+        >
+          Send
+        </button>
+      </div>
     </div>
-    <div id="orderBtnDiv">
-      <button
-        type="submit"
-        form="orderForm"
-        id="orderSendBtn"
-        onclick="confirm('Do you want to send your order?')"
-      >
-        Send
-      </button>
-    </div>
-  </div>
 
     <script src="navbartest.js"></script>
   </body>

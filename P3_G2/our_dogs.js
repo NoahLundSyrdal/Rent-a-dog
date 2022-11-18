@@ -54,16 +54,20 @@ var dog = [{ names: "Snøhvit",
             info: "Hei, Jeg heter Doge! Jeg er en middels Shiba Inu",
             bilde: "/img/dog_8.jpg"},
         ];
+// Lagrt en kopi av lista
 var copy_dog = dog;
+//Lager en funksjon som reseter tilbake til hovedlista dog
 function reset(){
   copy_dog = dog;
   render(true);
 }
+//Funksjon som filtrerer 
 function filterKastrert(_dogs){
   reset();
   copy_dog = _dogs.filter(dog1 => dog1.kastrert);
   render(true);
 }
+//
 function sortPrice(_dogs){
   reset();
   copy_dog = copy_dog.sort((a, b) => {
@@ -71,6 +75,7 @@ function sortPrice(_dogs){
   });
   render(true);
 }
+//
 function sortSize(_dogs){
   reset();
   copy_dog = copy_dog.sort((a, b) => {
@@ -78,6 +83,7 @@ function sortSize(_dogs){
   });
   render(true);
 }
+//
 function render(remove){
   var ourdogsbox = document.getElementById("genBox");
   if(remove){

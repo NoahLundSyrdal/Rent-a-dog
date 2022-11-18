@@ -79,6 +79,8 @@ a {
 .dogInfo {
   width: 400px;
   height: 400px;
+  margin: auto;
+  width: 50%;
   background-color: #18A558;
   border-radius: 10px;
   outline: 1px solid white;

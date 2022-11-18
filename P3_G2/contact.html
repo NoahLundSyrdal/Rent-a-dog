@@ -6,36 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="../img/paw.png">
-
+    <link rel="icon" href="../img/paw.png" />
   </head>
   <body>
     <div id="nav"></div>
-    
+
     <div class="content">
-    <div id="contactbox">
-      <h1 id="contactus">Contact us</h1>
-      <p id="mail">Mail: Rentadog@gmail.com</p>
-      <p id="tlf"> Tlf: 00 90 00 90</p>
-      <p id="adr"> Adr. Rosenborg Allé 1</p>
-      <h2 id="questions">Questions:</h2>
-      <textarea id="contacttext">
-      </textarea>
-      <br>
-      <button id="contactsend" onclick="sendCont()">Send</button>
-    </div>
+      <div id="contactbox">
+        <h1 id="contactus">Contact us</h1>
+        <p id="mail">Mail: Rentadog@gmail.com</p>
+        <p id="tlf">Tlf: 00 90 00 90</p>
+        <p id="adr">Adr. Rosenborg Allé 1</p>
+        <h2 id="questions">Questions:</h2>
+        <textarea id="contacttext"> </textarea>
+        <br />
+        <button id="contactsend" onclick="sendCont()">Send</button>
+      </div>
     </div>
 
     <script src="navbartest.js"></script>
     <script>
-      const bark = new Audio("../sound/bark.mp3")
+      const bark = new Audio("../sound/bark.mp3");
 
       function sendCont() {
-        confirm('Thank you for contacting!')
-        document.getElementById("contacttext").value = ""
-        bark.play()
+        confirm("Thank you for contacting!");
+        document.getElementById("contacttext").value = "";
+        bark.play();
       }
-      
     </script>
   </body>
 </html>

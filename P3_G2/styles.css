@@ -145,7 +145,7 @@ a {
   margin-top: -15px;
 }
 
-#contactsend {
+#sendbtn {
   width: 100px;
   height: 40px;
   border-width: 4px black;
@@ -160,7 +160,7 @@ a {
   border-radius: 5px;
 }
 
-#contactsend:hover {
+#sendbtn:hover {
   background-color: #18A558;
 }
 
@@ -168,19 +168,6 @@ form > input,
 form > label {
   margin: 5px;
   font-size: 20px;
-}
-
-#orderBtnDiv {
-  width: 60%;
-  margin: 10px 20%;
-  text-align: right;
-}
-
-#orderSendBtn {
-  font-size: 20px;
-  background-color: #106531;
-  color: white;
-  padding: 5px 20px;
 }
 
 button:hover {
